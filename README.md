@@ -24,3 +24,10 @@ Notify.Show("this is a warning messsage", "warning", {autoHide: false});
 ```
 Notify.Show("this is a success messsage", "success", {hideAfter: 1000}); //1000ms = 1sec
 ```
+
+To Do
+===
+1. Add screenshots to README
+2. Add animations along with options
+3. Support for mobile
+4. Host it on CDN
