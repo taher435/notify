@@ -2,7 +2,9 @@
     position: fixed;
     z-index : 1031;
     text-align: center;
-    transition: top 400ms ease-in; "-webkit-transition" : "top 400ms ease-in", "-moz-transition": "top 400ms ease-in", "-o-transition": "top 400ms ease-in"
+    transition: top 400ms ease-in;
+    -webkit-transition : top 400ms ease-in; -moz-transition: top 400ms ease-in;
+    -o-transition: top 400ms ease-in;
 }
 .notify .text{
   margin-right: 15px;
