@@ -25,6 +25,11 @@ Notify.Show("this is a warning messsage", "warning", {autoHide: false});
 Notify.Show("this is a success messsage", "success", {hideAfter: 1000}); //1000ms = 1sec
 ```
 
+###Hide
+```
+Notify.Hide();
+```
+
 To Do
 ===
 1. Add screenshots to README
