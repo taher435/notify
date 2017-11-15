@@ -1,33 +1,33 @@
 How to use
 ===
 
-###Show
+### Show
 
-######Success 
-
-```
-Notify.Show("this is a success messsage", "success");
-```
-
-######Error 
+###### Success
 
 ```
-Notify.Show("this is a error messsage", "error");
+Notification.Show("this is a success messsage", "success");
 ```
 
-######Disable auto hide
+###### Error
+
 ```
-Notify.Show("this is a warning messsage", "warning", {autoHide: false});
+Notification.Show("this is a error messsage", "error");
 ```
 
-######Change auto hide time
+###### Disable auto hide
 ```
-Notify.Show("this is a success messsage", "success", {hideAfter: 1000}); //1000ms = 1sec
+Notification.Show("this is a warning messsage", "warning", {autoHide: false});
 ```
 
-###Hide
+###### Change auto hide time
 ```
-Notify.Hide();
+Notification.Show("this is a success messsage", "success", {hideAfter: 1000}); //1000ms = 1sec
+```
+
+### Hide
+```
+Notification.Hide();
 ```
 
 To Do
